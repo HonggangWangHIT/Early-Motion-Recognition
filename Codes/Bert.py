@@ -55,7 +55,7 @@ for filename in os.listdir(data_dir):
         train_loader = DataLoader(train_dataset, batch_size=8, shuffle=True)
         test_loader = DataLoader(test_dataset, batch_size=8, shuffle=False)
 
-        model = BertForSequenceClassification.from_pretrained('/root/autodl-tmp/Models/bert-base-chinese', num_labels=len(set(y)), local_files_only=True)
+        model = BertForSequenceClassification.from_pretrained('../Models/bert-base-chinese', num_labels=len(set(y)), local_files_only=True)
         model.to(device)
 
         optimizer = AdamW(model.parameters(), lr=1e-5)
