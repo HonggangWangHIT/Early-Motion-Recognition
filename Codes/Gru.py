@@ -140,7 +140,6 @@ results_path = "/root/autodl-tmp/Results/Results_GRU_F30.xlsx"
 #results_path = "/root/autodl-tmp/Results/Results_GRU.xlsx"
 all_records.to_excel(results_path, index=False)
 
-# 保存时间信息到 Excel 文件
 #res_time.to_excel("../Test_time/Time_Taken_GRU.xlsx", index=False)
 res_time.to_excel("../Test_time/Time_Taken_GRU_F30.xlsx", index=False)
 print("The training has been completed.")
