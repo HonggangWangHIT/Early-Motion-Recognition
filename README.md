@@ -4,4 +4,4 @@ Files with the suffix “_F30” are datasets or corresponding results for the f
 
 The unit of the test_time is seconds.
 
-Please credit https://doi.org/10.1109/LRA.2025.3534684 when using this project.
+Please cite the article from https://doi.org/10.1109/LRA.2025.3534684 when using this project.
